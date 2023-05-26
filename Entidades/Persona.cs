@@ -30,6 +30,7 @@ namespace Artículos.Entidades
         }
         public void MostrarDatos()
         {
+            Console.WriteLine("----------------------------------------------");
             Console.WriteLine("Los datos de la persona son los siguientes:");
             Console.WriteLine("Nombre: " + Nombre);
             Console.WriteLine("Teléfono: " + Teléfono);
